@@ -36,3 +36,18 @@ int balancedBTs(int h) {
 	ll ans= (x*x) + 2 * (x * y);
 	return ans % m;
 }
+
+int main()
+{
+    int n;
+
+	cout<<"Enter a number:";
+
+	cin>>n;
+
+	int m = balancedBTs(n);
+
+	cout<<m;
+
+	return(0);
+}
